@@ -60,7 +60,7 @@ func findAt(target rune, inpt string, startingPoint int, reverse bool) int {
 		finalIndex = 0;
 	}
 
-	for true {
+	for {
 		if runeInpt[i] == target {
 			return i
 		}
