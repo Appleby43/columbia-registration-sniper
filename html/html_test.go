@@ -93,3 +93,27 @@ func TestElementAround(t *testing.T) {
 		t.Fail()
 	}
 }
+
+func TestNextElement(t *testing.T) { 
+	inpt := "<td> Hello </td><td> World! </td>"
+	helloIndex := strings.Index(inpt, "Hello");
+
+	firstElement := ElementAround(inpt, helloIndex)
+	secondElement := firstElement.FindNextElement()
+
+	if secondElement.startTag.startIndex != 16 {
+		t.Fail()
+	}
+
+	if secondElement.startTag.endIndex != 19 {
+		t.Fail()
+	}
+
+	if secondElement.endTag.endIndex != len(inpt) - 1 {
+		t.Fail()
+	}
+
+	if secondElement.endTag.startIndex != len(inpt) - 5 {
+		t.Fail()
+	}
+}

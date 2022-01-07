@@ -1,10 +1,10 @@
 package main
 
-// import (
-// 	"fmt"
-// 	"io/ioutil"
-// 	"net/http"
-// )
+import (
+	"fmt"
+	"io/ioutil"
+	"net/http"
+)
 
 //returns a runtime-constant array of all pages to scrape
 func pages() [7]string {
@@ -21,10 +21,10 @@ func pages() [7]string {
 
 
 func main() {
-	// resp, err := http.Get("http://www.columbia.edu/cu/bulletin/uwb/subj/ENGL/C1010-20221-001/");
+	resp, err := http.Get("http://www.columbia.edu/cu/bulletin/uwb/subj/ENGL/C1010-20221-001/");
 
-	// if err == nil {
-	// 	body, _ := ioutil.ReadAll(resp.Body)
-	// 	fmt.Println(string(body));
-	// }
+	if err == nil {
+		body, _ := ioutil.ReadAll(resp.Body)
+		fmt.Println(string(body));
+	}
 }

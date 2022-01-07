@@ -11,7 +11,7 @@ func (c *course) isFull() bool {
 	return c.enrollment >= c.capacity
 }
 
-func stripFrom() course {
+func stripFrom(html string) course {
 	//todo implement stripping
 	return course{
 		callNum: 0,
