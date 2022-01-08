@@ -1,4 +1,4 @@
-package html
+package htmlutil
 
 import (
 	"strings"
@@ -114,6 +114,40 @@ func TestNextElement(t *testing.T) {
 	}
 
 	if secondElement.endTag.startIndex != len(inpt) - 5 {
+		t.Fail()
+	}
+}
+
+func TestContents(t *testing.T) {
+	inpt := "<html>Hello World!</html>"
+	element := ElementAround(inpt, 10) // 10 is fairly arbitrary
+
+	if element.Contents() != "Hello World!" {
+		t.Fail()
+	}
+}
+
+func TestSplice(t *testing.T) {
+	output := splice("foobar", 1, 3)
+	
+	if output != "far" {
+		t.Fail()
+	}
+}
+
+func TestSpliceFull(t *testing.T){
+	output := splice("hello", 0, len("hello") - 1)
+
+	if output != "" {
+		t.Fail()
+	}
+}
+
+func TestStripMeta(t *testing.T) {
+	inpt := "<meta aslkdjslkafjlkasdjfldskajf><meta><meta foo=bar>hello world<meta>"
+	outpt := StripMeta(inpt)
+
+	if outpt != "hello world" {
 		t.Fail()
 	}
 }

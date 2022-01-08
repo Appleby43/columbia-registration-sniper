@@ -1,0 +1,89 @@
+<html><head>
+<title>Spring 2022 English CC1010 section 001</title>
+<meta name="publisher" content="Undergraduate Writing Program">
+<meta name="description" charset="UTF-8" content="UNIVERSITY WRITING; UW: CONTEMPORARY ESSAYS; 3 points; Instructor: Ali Yalgin; Monday Wednesday 8:40am-9:55am 201D Philosophy Hall">
+<meta name="instr" content="Ali Yalgin">
+<meta name="semes" content="20221">
+<meta name="days"  content="Monday Wednesday">
+<meta name="hour"  content="8">
+</head>
+<body bgcolor=white text=black link=blue vlink=purple alink=red>
+<table cellpadding=3 cellspacing=2 width=100%>
+<tr>
+  <td bgcolor="#99CCFF" colspan=2 align=center>
+    <a href="/cu/bulletin/uwb/home.html"
+    onMouseOver="self.status='Directory of Classes Homepage'; return true">
+    <image src="/cu/bulletin/uwb/images/banner1.gif" alt="Directory of Classes"
+    height=75 width=325 border=0></a>
+    <p><font size=-1>NOTE: Course information changes frequently, including Methods of Instruction. Please revisit these pages periodically for the most recent and up-to-date course information.</font></p>
+  </td></tr>
+
+<tr valign=top>
+ <td colspan=2 bgcolor=#99CCFF><b><br>
+    <font size=+1>Spring 2022 English CC1010 section 001</font><br>
+    <font size=+2>UNIVERSITY WRITING</font><br>
+    <i>UW: CONTEMPORARY ESSAYS</i><br>
+    <br></b></td></tr>
+<tr valign=top><td bgcolor=#99CCFF>Call Number</td>
+ <td bgcolor=#DADADA>15243</td></tr>
+<tr valign=top><td bgcolor=#99CCFF>Day &amp; Time<br>Location</td>
+ <td bgcolor=#DADADA>MW 8:40am-9:55am<br>201D Philosophy Hall</td></tr>
+<tr valign=top><td bgcolor=#99CCFF>Points</td>
+ <td bgcolor=#DADADA>3</td></tr>
+<tr valign=top><td bgcolor=#99CCFF>Grading Mode</td>
+ <td bgcolor=#DADADA>Standard</td></tr>
+<tr valign=top><td bgcolor=#99CCFF>Approvals Required</td>
+ <td bgcolor=#DADADA>None</td></tr>
+<tr valign=top><td bgcolor=#99CCFF>Instructor</td>
+ <td bgcolor=#DADADA>Ali Yalgin</td></tr>
+<tr valign=top><td bgcolor=#99CCFF>Type</td>
+ <td bgcolor=#DADADA>LECTURE</td></tr>
+<tr valign=top><td bgcolor=#99CCFF>Method of Instruction</td>
+ <td bgcolor=#DADADA>In-Person</td></tr>
+<tr valign=top><td bgcolor=#99CCFF>Course Description</td>
+ <td bgcolor=#DADADA><em>ENGL CC/GS1010: University Writing, </em>is a one-semester seminar designed to facilitate students&rsquo; entry into the intellectual life of the university by teaching them to become more capable and independent academic readers and writers. The course emphasizes habits of mind and skills that foster students&rsquo; capacities for critical analysis, argument, revision, collaboration, meta-cognition, and research. Students read and discuss essays from a number of fields, complete regular informal reading and writing exercises, compose several longer essays, and devise a research-based project of their own design.  <strong>Courses of Instruction</strong>  <strong>ENGL CC1010 University Writing. </strong><strong><em>3 points</em></strong><strong>.</strong>  <em>ENGL CC/GS1010: University Writing</em> (3 points) focuses on developing students&rsquo; reading, writing, and thinking, drawing from readings on a designated course theme that carry a broad appeal to people with diverse interests. No University Writing class presumes that students arrive with prior knowledge in the theme of the course. We are offering the following themes this year:  <ul>  <li><a href="https://www.college.columbia.edu/core/node/3292"><strong>UW: Contemporary Essays, CC/GS1010.001-.099</strong></a></li>  <li><a href="https://www.college.columbia.edu/core/node/3286"><strong>UW: Readings in American Studies, CC/GS1010.1xx</strong></a></li>  <li><a href="https://www.college.columbia.edu/core/node/3287"><strong>UW: Readings in Gender and Sexuality, CC/GS1010.2xx</strong></a></li>  <li><a href="https://www.college.columbia.edu/core/node/3627/"><strong>UW: Readings in Film and Performing Arts, CC1010.3xx</strong></a></li>  <li><a href="https://www.college.columbia.edu/core/node/3289"><strong>UW: Readings in Human Rights, CC/GS1010.4xx</strong></a></li>  <li><a href="https://www.college.columbia.edu/core/node/3290"><strong>UW: Readings in Data and Society, CC/GS1010.5xx</strong></a></li>  <li><a href="https://www.college.columbia.edu/core/node/3628"><strong>UW: Readings in Medical Humanities, CC/GS1010.6xx</strong></a></li>  <li><a href="https://www.college.columbia.edu/core/node/3654"><strong>UW: Readings in Law & Justice, CC1010.7xx</strong></a></li>  <li><strong>UW: Readings in Race and Ethnicity, CC/GS1010.8xx</strong></li>  <li><a href="https://www.college.columbia.edu/core/node/3291"><strong>University Writing for International Students, CC/GS1010.9xx</strong></a></li> </ul>  For further details about these classes, please visit: <a href="</td></tr>
+<tr valign=top><td bgcolor=#99CCFF>Web Site</td>
+ <td bgcolor=#DADADA><a href="https://vergil.registrar.columbia.edu/#/courses/ENGLC1010_001_2022_1">Vergil</a></td></tr>
+<tr valign=top><td bgcolor=#99CCFF>Department</td>
+ <td bgcolor=#DADADA><a target="_top" href="https://www.college.columbia.edu/core/uwp">Undergraduate Writing Program</a></td></tr>
+<tr valign=top><td bgcolor=#99CCFF>Enrollment</td>
+ <td bgcolor=#DADADA>10 students (14 max) as of  2:51PM Friday, January  7, 2022</td></tr>
+<tr valign=top><td bgcolor=#99CCFF>Status</td>
+ <td bgcolor=#DADADA>Full</td></tr>
+<tr valign=top><td bgcolor=#99CCFF>Subject</td>
+ <td bgcolor=#DADADA>English</td></tr>
+<tr valign=top><td bgcolor=#99CCFF>Number</td>
+ <td bgcolor=#DADADA>CC1010</td></tr>
+<tr valign=top><td bgcolor=#99CCFF>Section</td>
+ <td bgcolor=#DADADA>001</td></tr>
+<tr valign=top><td bgcolor=#99CCFF>Division</td>
+ <td bgcolor=#DADADA>Columbia College</td></tr>
+<tr valign=top><td bgcolor=#99CCFF>Open To</td>
+ <td bgcolor=#DADADA>Columbia College, Engineering:Undergraduate</td></tr>
+<tr valign=top><td bgcolor=#99CCFF>Campus</td>
+ <td bgcolor=#DADADA>Morningside</td></tr>
+<tr valign=top><td bgcolor=#99CCFF>Section key</td>
+ <td bgcolor=#DADADA>20221ENGL1010C001</td></tr>
+<tr>
+  <td bgcolor="#99CCFF" colspan=2 align=center><br>
+    <a href="/cu/bulletin/uwb/home.html"
+onMouseOver="self.status='Directory of Classes Home Page'; return true">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <a href="/cu/bulletin/uwb/about/"
+onMouseOver="self.status='Information About the Directory of Classes'; return true">About&nbsp;This&nbsp;Directory</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <a target="_top" href="/cu/bulletin/index.html#bulls"
+onMouseOver="self.status='View the List of School Bulletins'; return true">Online&nbsp;Bulletins</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <a target="_top" href="http://www.columbia.edu/"
+	onMouseOver="self.status='Go to the Columbia Homepage'; return true">ColumbiaWeb</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <a target="_blank" href="https://ssol.columbia.edu/"
+	onMouseOver="self.status='Go to the Student Services Online'; return true">SSOL</a>
+
+  </td></tr>
+</table>
+
+<font size=-2>SIS update 01/07/22 14:51 &nbsp;&nbsp; web update 01/07/22 15:21</font>
+</body></html>
+

@@ -1,5 +1,10 @@
-//html handles the parsing of strings into a tree o
-package html
+//html defines
+package htmlutil
+
+import "strings"
+
+
+//import "strings"
 
 //Element represents an HTML Element - composed of starting and
 //ending tags as well as 'content' between. Content may contain more html.
@@ -44,6 +49,34 @@ func (e *Element) FindNextElement() Element {
 	//find an index in the next element and run ElementAround
 	startTagEnd := findAt('>', *e.html, e.endTag.endIndex + 1, false)
 	return ElementAround(*e.html, startTagEnd + 1)
+}
+
+//Contents returns the HTML between the two tags in an element
+func (e *Element) Contents() string {
+	start := e.startTag.endIndex + 1;
+	end := e.endTag.startIndex;
+	return (*e.html)[start:end]
+}
+
+//StripMeta removes all <meta....> tags from html
+func StripMeta(html string) string {
+	index := strings.Index(html, "<meta")
+
+	if index == -1 {
+		return html
+	}
+
+	closeIndex := findAt('>', html, index, false)
+	html = splice(html, index, closeIndex)
+	return StripMeta(html)
+}
+
+//splice cuts a chunk out of a string from indexes start to end, inclusive
+func splice(inpt string, start int, end int) string {
+	firstHalf := inpt[:start]
+	secondHalf := inpt[end + 1:]
+
+	return firstHalf + secondHalf
 }
 
 
