@@ -40,9 +40,6 @@ func main() {
 			continue
 		}
 
-		fmt.Println(course.CallNum)
-		fmt.Println(course.Professor)
-		fmt.Println(course.Capacity)
-		fmt.Println(course.Enrollment)
+		fmt.Println(&course)
 	}
 }

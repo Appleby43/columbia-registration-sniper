@@ -1,6 +1,7 @@
 package course
 
 import (
+	"fmt"
 	"strconv"
 	"strings"
 	"unicode"
@@ -13,6 +14,16 @@ type Course struct {
 	Professor string
 	Capacity int
 	Enrollment int
+}
+
+func (c *Course) String() string {
+	callString := fmt.Sprintf("Call #: %d\n", c.CallNum)
+	profString := fmt.Sprintf("Professor: %s\n", c.Professor)
+	capString := fmt.Sprintf("Capacity: %d\n", c.Capacity)
+	enrlmntString := fmt.Sprintf("Enrollment: %d\n", c.Enrollment)
+	fullString := fmt.Sprintf("Full?: %t", c.isFull())
+
+	return strings.Join([]string{callString, profString, capString, enrlmntString, fullString}, "");
 }
 
 func (c *Course) isFull() bool {

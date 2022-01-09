@@ -129,3 +129,18 @@ func TestStripFrom(t *testing.T) {
 		t.Fail()
 	}
 }
+
+func TestStringer(t *testing.T) {
+	myCourse := Course{
+		Professor: "John Cena",
+		CallNum: 69420,
+		Capacity: 50,
+		Enrollment: 45,
+	}
+
+	expected := "Call #: 69420\nProfessor: John Cena\nCapacity: 50\nEnrollment: 45\nFull?: false"
+
+	if myCourse.String() != expected {
+		t.Fail()
+	}
+}
