@@ -21,12 +21,12 @@ func (c *Course) String() string {
 	profString := fmt.Sprintf("Professor: %s\n", c.Professor)
 	capString := fmt.Sprintf("Capacity: %d\n", c.Capacity)
 	enrlmntString := fmt.Sprintf("Enrollment: %d\n", c.Enrollment)
-	fullString := fmt.Sprintf("Full?: %t", c.isFull())
+	fullString := fmt.Sprintf("Full?: %t", c.IsFull())
 
 	return strings.Join([]string{callString, profString, capString, enrlmntString, fullString}, "");
 }
 
-func (c *Course) isFull() bool {
+func (c *Course) IsFull() bool {
 	return c.Enrollment >= c.Capacity
 }
 

@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/Appleby43/columbia-registration-sniper/course"
+	"github.com/Appleby43/columbia-registration-sniper/email"
 	"github.com/Appleby43/columbia-registration-sniper/fetch"
 )
 
@@ -41,5 +42,10 @@ func main() {
 		}
 
 		fmt.Println(&course)
+
+		if !course.IsFull() {
+			message := "A vacancy is available!\n\n"+course.String()
+			email.Send(message)
+		}
 	}
 }

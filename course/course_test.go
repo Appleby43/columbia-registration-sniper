@@ -11,7 +11,7 @@ func TestFull(t *testing.T) {
 		Enrollment: 10,
 	}
 
-	if !c.isFull() {
+	if !c.IsFull() {
 		t.Fail()
 	}
 }
@@ -22,7 +22,7 @@ func TestBelowCapactiy(t *testing.T) {
 		Enrollment: 25,
 	}
 
-	if c.isFull() {
+	if c.IsFull() {
 		t.Fail()
 	}
 }
@@ -33,7 +33,7 @@ func TestAboveCapacity(t *testing.T) {
 		Enrollment: 101,
 	}
 
-	if !c.isFull() {
+	if !c.IsFull() {
 		t.Fail()
 	}
 }
