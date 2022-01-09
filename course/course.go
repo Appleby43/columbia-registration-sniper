@@ -8,18 +8,18 @@ import (
 	"github.com/Appleby43/columbia-registration-sniper/htmlutil"
 )
 
-type course struct {
-	callNum int
-	professor string
-	capacity int
-	enrollment int
+type Course struct {
+	CallNum int
+	Professor string
+	Capacity int
+	Enrollment int
 }
 
-func (c *course) isFull() bool {
-	return c.enrollment >= c.capacity
+func (c *Course) isFull() bool {
+	return c.Enrollment >= c.Capacity
 }
 
-func stripFrom(html string) (course, error) {
+func StripFrom(html string) (Course, error) {
 	html = strings.ReplaceAll(html, "\n", "")
 	html = htmlutil.StripMeta(html)
 	callNumString := strings.TrimSpace(pullFromNextCell(html, "Call Number"))
@@ -30,11 +30,11 @@ func stripFrom(html string) (course, error) {
 
 	enrollment, capacity := parseEnrollmentDetails(enrollmentDetails)
 
-	return course{
-		callNum: callNum,
-		professor: professor,
-		enrollment: enrollment,
-		capacity: capacity,
+	return Course{
+		CallNum: callNum,
+		Professor: professor,
+		Enrollment: enrollment,
+		Capacity: capacity,
 	}, err
 }
 

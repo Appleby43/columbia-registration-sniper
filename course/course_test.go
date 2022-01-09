@@ -6,9 +6,9 @@ import (
 )
 
 func TestFull(t *testing.T) {
-	c := course{
-		capacity:   10,
-		enrollment: 10,
+	c := Course{
+		Capacity:   10,
+		Enrollment: 10,
 	}
 
 	if !c.isFull() {
@@ -17,9 +17,9 @@ func TestFull(t *testing.T) {
 }
 
 func TestBelowCapactiy(t *testing.T) {
-	c := course{
-		capacity:   50,
-		enrollment: 25,
+	c := Course{
+		Capacity:   50,
+		Enrollment: 25,
 	}
 
 	if c.isFull() {
@@ -28,9 +28,9 @@ func TestBelowCapactiy(t *testing.T) {
 }
 
 func TestAboveCapacity(t *testing.T) {
-	c := course{
-		capacity:   100,
-		enrollment: 101,
+	c := Course{
+		Capacity:   100,
+		Enrollment: 101,
 	}
 
 	if !c.isFull() {
@@ -112,17 +112,17 @@ func TestStripFrom(t *testing.T) {
 
 	input := string(bytes)
 
-	actualCourse, err := stripFrom(input)
+	actualCourse, err := StripFrom(input)
 
 	if err != nil {
 		t.Fail()
 	}
 
-	expectedCourse := course{
-		professor: "Ali Yalgin",
-		callNum: 15243,
-		capacity: 14,
-		enrollment: 10,
+	expectedCourse := Course{
+		Professor: "Ali Yalgin",
+		CallNum: 15243,
+		Capacity: 14,
+		Enrollment: 10,
 	}
 
 	if actualCourse != expectedCourse {
